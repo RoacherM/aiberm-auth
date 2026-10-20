@@ -1,0 +1,37 @@
+{
+  "name": "aiberm-auth",
+  "version": "0.1.1",
+  "description": "magpie / OpenCode provider plugin for Aiberm: one API key, each model on its native API (Anthropic Messages, OpenAI Responses, Gemini, Chat Completions)",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "magpie-plugin",
+    "magpie",
+    "opencode",
+    "opencode-plugin",
+    "provider",
+    "auth",
+    "aiberm"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test"
+  },
+  "magpie": {
+    "maxConcurrency": 8
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoacherM/aiberm-auth.git"
+  },
+  "homepage": "https://github.com/RoacherM/aiberm-auth#readme",
+  "bugs": {
+    "url": "https://github.com/RoacherM/aiberm-auth/issues"
+  }
+}
